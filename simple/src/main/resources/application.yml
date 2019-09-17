@@ -1,0 +1,9 @@
+
+server:
+  port: 8901
+spring:
+  mvc:
+    static-path-pattern: static/**
+    view:
+      suffix: .html
+      prefix: classpath:/templates/
